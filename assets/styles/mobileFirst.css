@@ -36,7 +36,7 @@ main {
     position: relative;
 }
 section#login {
-    background-color: white;
+    background-color: rgb(233, 240, 243);
     width: 250px;
     height: 500px;
     border-radius: 20px;
@@ -46,11 +46,14 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 1px 1px 10px var(--sombra);
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;
 }
 section#login div#imgLogin {
     background: url("../images/espaçoSideral.jpg") center bottom no-repeat fixed;
     background-size: cover;
     height: 200px;
+    display: block;
 }
 section#login #formLogin {
     padding: 10px;
@@ -60,4 +63,6 @@ section#login #formLogin h1 {
     font-family: 'Sriracha', cursive;
     font-size: 2.5em;
     user-select: none;
+    text-align: center;
+    margin-bottom: 10px;
 }
