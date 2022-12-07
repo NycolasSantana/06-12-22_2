@@ -1,6 +1,4 @@
 @charset "UTF-8";
-
-/* TABLETS */
 @media screen and (min-width: 768px) and (max-width: 992px){
     section#login {
         width: 90vw;
@@ -22,7 +20,7 @@
     }
 }
 
-/* TELAS MAIORES */
+
 @media screen and (min-width: 992px) {
     section#login {
         width: 992px;
